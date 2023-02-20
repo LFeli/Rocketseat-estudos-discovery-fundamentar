@@ -29,7 +29,7 @@ Um ponto importante e que ao passar pacotes há dois tipos de dependências, as 
 #### Intalar vários módulos
 
 E possivel também instalar várias dependências de uma só vez, basta ir dando espaço entre o nome dos pacotes:
-```json
+```
 npm i modulo1 modulo2 modulo3
 ```
 
