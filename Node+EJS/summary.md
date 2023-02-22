@@ -53,3 +53,16 @@ Trocar as páginas e relativamente simples, pois temos duas opções
     1. Fazer botões que acabam trocando a rota
     2. Mudar manualmente, inserindo o nome que você colocou no arquivo do js
 
+#### Boas práticas
+Uma boa prática e separarmos dentro da página views, o que é uma page e o que e partes de estilo. Após separar temos que no servidor dizer que o caminho foi alterado.
+
+#### Passando um objeto para o EJS
+
+Para passarmos um objeto no EJS, nos utilizamos sua tag expecial de include e o `{nomeDoObejto: valor}`
+
+#### Foreach
+`<%- %>` = Para codigos do EJS   
+`<%= %>` = Pritar um contéudo na tela  
+`<% %>` = Para codigo javascript dentro do EJS  
+
+Para rodarmos um foreach , e na vdd qualquer tag JS precisamos da tag especial do EJS.

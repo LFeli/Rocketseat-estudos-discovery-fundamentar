@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-    <%- include('head'); %>
+    <%- include('../partials/head'); %>
     <title>Sobre esse site</title>
 <body>
-    <%- include('header'); %>
+    <%- include('../partials/header', {pagina: 'sobre'}); %>
     
     <main class="container">
         <div class="jumbotron">
@@ -11,6 +11,6 @@
         </div>
     </main>
 
-    <%- include('footer'); %>
+    <%- include('../partials/footer'); %>
 </body>
 </html>
