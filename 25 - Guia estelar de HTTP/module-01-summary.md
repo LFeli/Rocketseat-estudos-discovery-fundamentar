@@ -46,7 +46,7 @@ Uma ferramenta que já vem instaladas em sistemas UNIX (Mac ou linux da vida), q
 
 Caso tente usar no Windows, pode usar o terminal do git bash, ele já vem com o cURL instalado, caso queire acessar o manual do cURL basta apenas digitar:
 ```bash
-    man curl
+man curl
 ```
 
 Alguns comandos uteis do curl:
